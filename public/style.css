@@ -1,0 +1,50 @@
+h1{
+    color :maroon;
+    display:inline;
+
+}
+
+.post{
+    background-color: pink;
+}
+
+.username{
+    font-weight :bold;
+}
+
+.btn-create {
+      background-color :pink; /* Green background */
+      color: maroon;                /* White text */
+      padding: 8px 12px;          /* Space inside button */
+      border: 4px solid black;                /* Remove default border */
+      border-radius: 8px;          /* Rounded corners */
+      font-size: 16px;             /* Text size */
+      font-weight: bold;           /* Bold text */
+      cursor: pointer;             /* Pointer on hover */
+      transition: 0.3s ease;       /* Smooth hover effect */
+    }
+
+h3{
+    display:inline;
+    }
+
+
+
+.edit-btn{
+    color:maroon;
+    background-color: rgba(249, 211, 218, 0.928);
+    font-weight: 600;
+    border: 2.5px solid black;
+    border-radius: 2px;
+    padding :2px 4px;
+    
+}
+
+.delete-btn{
+    color:maroon;
+    background-color: rgba(249, 211, 218, 0.928);
+    font-weight: 600;
+    border: 2.5px solid black;
+    border-radius: 2px;
+    padding :2px 4px;
+}
