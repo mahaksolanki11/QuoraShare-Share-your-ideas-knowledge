@@ -1,7 +1,7 @@
 const express = require ("express");
 const app = express();
 
-const port = 8080;
+//const port = 8080;
 const path = require("path");
 
 const {v4 : uuidv4}= require('uuid');
@@ -79,6 +79,6 @@ app.delete("/posts/:id",(req,res)=>{
     res.redirect("/posts");
 })
 
-app.listen(port,()=>{
-    console.log(`listening to port: ${port}`);
+app.listen(8080,()=>{
+    console.log(`listening to port: 8080`);
  })
